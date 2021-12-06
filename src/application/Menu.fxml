@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <BorderPane layoutX="-4.0" prefHeight="457.0" prefWidth="435.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="552.0" prefWidth="484.0">
+               <children>
+                  <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="138.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/download.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="47.0" layoutX="252.0" layoutY="13.0" onMouseClicked="#Scene16" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/images.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="33.0" layoutY="14.0" onMouseClicked="#Scene1" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/images%20(1).jfif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="41.0" fitWidth="48.0" layoutX="32.0" layoutY="105.0" onMouseClicked="#Scene3" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/data.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="56.0" layoutX="140.0" layoutY="108.0" onMouseClicked="#Scene4" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/bmi.jfif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="250.0" layoutY="106.0" onMouseClicked="#Scene5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/age.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="35.0" layoutY="305.0" onMouseClicked="#Scene9" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/area.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="146.0" layoutY="305.0" onMouseClicked="#Scene10" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/volume.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="253.0" layoutY="305.0" onMouseClicked="#Scene11" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/temp.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="39.0" layoutY="415.0" onMouseClicked="#Scene13" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/time.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="148.0" layoutY="200.0" onMouseClicked="#Scene7" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/calender.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="253.0" layoutY="200.0" onMouseClicked="#Scene8" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/length.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="37.0" layoutY="202.0" onMouseClicked="#Scene6" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/discount.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="37.0" layoutY="149.0" text="Data" />
+                  <Label layoutX="154.0" layoutY="149.0" text="BMI" />
+                  <Label layoutX="259.0" layoutY="149.0" text="Age" />
+                  <Label layoutX="28.0" layoutY="250.0" text="Discount" />
+                  <Label layoutX="250.0" layoutY="250.0" text="Length" />
+                  <Label layoutX="152.0" layoutY="250.0" text="Date" />
+                  <Label layoutX="42.0" layoutY="354.0" text="Area" />
+                  <Label layoutX="142.0" layoutY="354.0" text="Volume" />
+                  <Label layoutX="231.0" layoutY="354.0" text="Temperature" />
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="147.0" layoutY="418.0" onMouseClicked="#Scene12" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/speed.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="250.0" layoutY="415.0" onMouseClicked="#Scene14" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/mass.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="42.0" layoutY="466.0" text="Time" />
+                  <Label layoutX="147.0" layoutY="466.0" text="Speed" />
+                  <Label layoutX="249.0" layoutY="466.0" text="Mass" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
